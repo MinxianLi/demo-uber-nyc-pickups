@@ -105,7 +105,7 @@ pd.set_option('display.max_colwidth', None)
 df[['Member',cc_title[0]]]
 df[['Member',cc_title[1]]]
 df[['Member',cc_title[2]]]
-Personalize by Engagement
+### Personalize by Engagement
 df = pd.DataFrame(columns = ['Member']+cc_title)
 users = [
     [Age.YOUNG,Gender.MALE,Engagement.HIGH, Trust.EXPERT],
